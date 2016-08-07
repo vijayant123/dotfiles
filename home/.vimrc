@@ -17,7 +17,6 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -26,27 +25,25 @@ Plugin 'tpope/vim-fugitive'
 "Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 
 
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'} "condensed html parser
+Plugin 'jelera/vim-javascript-syntax' "js
+Plugin 'pangloss/vim-javascript' "js
+Plugin 'nathanaelkane/vim-indent-guides' "indentation guide
+Plugin 'jiangmiao/auto-pairs' "pairing brackets
 
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'pangloss/vim-javascript'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'jiangmiao/auto-pairs'
-
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe' "auto completion
 
 " These are the tweaks I apply to YCM's config, you don't need them but they might help.
 " YCM gives you popups and splits by default that some people might not like, so these should tidy it up a bit for you.
-let g:ycm_add_preview_to_completeopt=0
-let g:ycm_confirm_extra_conf=0
-set completeopt-=preview
+"let g:ycm_add_preview_to_completeopt=0
+"let g:ycm_confirm_extra_conf=0
+"set completeopt-=preview
 
-	
 Plugin 'marijnh/tern_for_vim'
 
 
