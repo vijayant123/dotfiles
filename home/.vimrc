@@ -32,7 +32,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'} "condensed html parser
 Plugin 'jelera/vim-javascript-syntax' "js
-Plugin 'pangloss/vim-javascript' "js
 Plugin 'nathanaelkane/vim-indent-guides' "indentation guide
 Plugin 'jiangmiao/auto-pairs' "pairing brackets
 
