@@ -31,7 +31,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'} "condensed html parser
-Plugin 'jelera/vim-javascript-syntax' "js
+"lugin 'jelera/vim-javascript-syntax' "js
+Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides' "indentation guide
 Plugin 'jiangmiao/auto-pairs' "pairing brackets
 
@@ -75,6 +76,9 @@ filetype plugin indent on    " required
 
 
 "Vundle config ends here
+
+"syntax highlighting
+syntax on
 
 " netrw magic
 " enable mouse usage. makes it easier to browse multiple tabs
