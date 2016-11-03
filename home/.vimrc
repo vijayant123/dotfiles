@@ -35,7 +35,7 @@ Plugin 'jelera/vim-javascript-syntax' "js
 Plugin 'nathanaelkane/vim-indent-guides' "indentation guide
 Plugin 'jiangmiao/auto-pairs' "pairing brackets
 
-Plugin 'Valloric/YouCompleteMe' "auto completion
+"Plugin 'Valloric/YouCompleteMe' "auto completion
 
 " These are the tweaks I apply to YCM's config, you don't need them but they might help.
 " YCM gives you popups and splits by default that some people might not like, so these should tidy it up a bit for you.
@@ -43,7 +43,7 @@ Plugin 'Valloric/YouCompleteMe' "auto completion
 "let g:ycm_confirm_extra_conf=0
 "set completeopt-=preview
 
-Plugin 'marijnh/tern_for_vim'
+"Plugin 'marijnh/tern_for_vim'
 
 
 
