@@ -119,6 +119,9 @@ fi
 TERM=xterm-256color
 
 
+source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+
+source "$HOME/.homesick/repos/homeshick/completions/homeshick-completion.bash"
 
 export PATH=${PATH}:~/android-sdk-linux/tools
 export PATH=${PATH}:~/android-sdk-linux/platform-tools
